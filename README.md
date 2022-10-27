@@ -4,10 +4,10 @@
 L'obiettivo del progetto di quest'anno è la gestione di una classifica tra grafi
 diretti pesati. La classifica tiene traccia dei k "migliori" grafi.
 Il programma da realizzare riceve in ingresso 
-  • due parametri, una sola volta (sulla prima riga del file, separati da spazio):
+  * due parametri, una sola volta (sulla prima riga del file, separati da spazio):
     - d: il numero di nodi dei grafi
     - k: la lunghezza della classifica
-  • una sequenza di comandi tra
+  * una sequenza di comandi tra
     - AggiungiGrafo [matrice-di-adiacenza]
     - TopK
 d, k e il numero di grafi sono rappresentabili con interi a 32 bit.
