@@ -21,6 +21,6 @@ I pesi degli archi del grafo elementi sono interi nell'intervallo [0, 2^32 – 1
 #### TopK
 Si consideri ogni grafo dall'inizio del programma fino al comando TopK etichettato con un indice intero corrispondente al numero di grafi letti prima di esso (partendo da 0).
 TopK richiede al programma di stampare gli indici interi dei k grafi aventi i k valori più piccoli della seguente metrica: somma dei cammini più brevi tra il nodo 0 e tutti gli altri nodi del grafo raggiungibili da 0.
-Se ci sono più grafi con lo stesso valore della metrica, si dà la precedenza ai primi arrivati
-Le distanze dei nodi non raggiungibili da 0 sono considerate nulle
-I k indici interi sono stampati, su un unico rigo, separati da uno spazio, in un qualunque ordine
+Se ci sono più grafi con lo stesso valore della metrica, si dà la precedenza ai primi arrivati.
+Le distanze dei nodi non raggiungibili da 0 sono considerate nulle.
+I k indici interi sono stampati, su un unico rigo, separati da uno spazio, in un qualunque ordine.
